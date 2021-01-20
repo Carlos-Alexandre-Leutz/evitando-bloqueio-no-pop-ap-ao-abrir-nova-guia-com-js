@@ -1,0 +1,23 @@
+<body onload="abrir(true);">
+    <button id="abcd" type="button" onclick="abrir(false)">Ação Direta</button>        
+</body>
+
+<script type="text/javascript">
+    function abrir(value) {
+      if (value) {
+        setTimeout(function () {
+          window.open('http://pt.stackoverflow.com');
+        }, 5000);
+      } else {            
+        window.open('http://pt.stackoverflow.com');
+      }
+
+    }
+</script>
+
+
+ou 
+<a id="curso" href="https://go.hotmart.com/C43980931F" target="_blank">
+</a><script type="text/javascript">
+document.getElementById("curso").click();
+</script>
