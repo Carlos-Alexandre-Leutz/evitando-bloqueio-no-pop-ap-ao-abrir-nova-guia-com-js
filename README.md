@@ -1,0 +1,1 @@
+# evitando-bloqueio-no-pop-ap-ao-abrir-nova-guia-com-js
